@@ -11,6 +11,7 @@ output:
 
 # Section 3
 ```{r}
+## install.packages("tidytuesdayR")
 tuesdata <- tidytuesdayR::tt_load('2024-03-26')
 
 team_results <- tuesdata$`team-results`; team_results
@@ -22,5 +23,3 @@ public_picks <- tuesdata$`public-picks`; public_picks
 dim(team_results)
 dim(public_picks)
 ```
-
-# Section 5
